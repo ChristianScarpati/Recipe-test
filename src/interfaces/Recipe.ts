@@ -1,8 +1,19 @@
 // thanks to Quicktype
-
 export interface Recipe {
-    image: string | undefined;
-    title: string | undefined;
+    id: number;
+    title: string;
+    image: string;
+    summary: string;
+    instructions: string;
+    extendedIngredients: { original: string }[];
+    vegan: boolean;
+    glutenFree: boolean;
+    dairyFree: boolean;
+    vegetarian: boolean;
+    calories?: number;
+    protein?: number;
+}
+export interface Recipe {
     recipes: RecipeElement[];
 }
 
