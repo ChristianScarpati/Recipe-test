@@ -8,7 +8,7 @@ interface RecipeCardProps {
 }
 
 const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
-  if (!recipe || !recipe.extendedIngredients) {
+  if (!recipe) {
     return <Text>"Error: Recipe data not available"</Text>;
   }
 
