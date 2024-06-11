@@ -17,7 +17,7 @@ npm run dev
  ```
 
 3. Third:
-Navigate to [http://localhost:3000]http://localhost:5173/ 
+Navigate to http://localhost:5173/ 
 
 
 
